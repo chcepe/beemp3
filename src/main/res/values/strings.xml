@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">MP3 Music Download</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="fragment_two">Downloads</string>
+    <string name="fragment_one">Search</string>
+    <string name="fragment_three">Free Apps &amp; Offers</string>
+
+    <string name="package_url">com.codeimage.music.dowloader</string>
+
+    <string name="leadbolt_url">http://ad.leadboltads.net/show_app_wall?section_id=369425455</string>
+    <string name="leadbolt_id">fEXW6QhS1XCt3fAtf9NNB9Lrt3xWcrHb</string>
+
+    <!--  Language Settings Below -->
+    <string name="duration">Duration: </string>
+    <string name="edittext_search_hint">Enter Song or Artist</string>
+    <string name="checkout">Check Out This Song</string>
+    <string name="dlmessage">Hey download this song :) </string>
+    <string name="failedloading">Song Loading Failed, Please Try A Different Song.</string>
+    <string name="addedqueue">Download Added To Queue</string>
+    <string name="buffering">Song is buffering</string>
+    <string name="toast_retry">Set To Retry</string>
+    <string name="toast_deleted">MP3 Deleted</string>
+    <string name="toast_clear">Cleared Completed &amp; Failed Downloads</string>
+    <string name="btn_download">Download</string>
+    <string name="btn_downloadexist">Redownload</string>
+    <string name="btn_search_name">Search</string>
+    <string name="btn_cancel_name">Cancel</string>
+    <string name="btn_share">Share</string>
+    <string name="generic">Generic</string>
+    <string name="viewprogress">Click Here To View Progress</string>
+    <string name="downloadcomplete">Download Completed</string>
+    <string name="dlfailed">Download Failed</string>
+    <string name="dlcancelled">Download Cancelled</string>
+    <string name="downloading">Downloading File</string>
+    <string name="totaldl">Total Downloads</string>
+    <string name="clearall">Clear All</string>
+    <string name="leadbolt_key">fH8aVG8AYnlLWv0OKvkNVVXhVTlMlCFD</string>
+</resources>

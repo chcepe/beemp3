@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:background="#FFF" > 
+	
+	<ListView 
+	    android:id="@+android:id/list" 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:cacheColorHint="#FFF"
+    	android:background="#FFF"
+	    android:layout_above="@+id/pager"
+		android:layout_alignParentTop="true"
+	/>
+	
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    android:gravity="center"
+		android:id="@+id/pager"
+		android:layout_alignParentBottom="true"
+		android:background="#222222"
+	>
+		<TextView
+			android:text="@string/totaldl"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+        	android:layout_alignParentLeft="true"
+        	android:gravity="center_vertical"
+        	android:layout_centerInParent="true"
+        	android:id="@+id/totaldls"
+        	android:textColor="#FFF"
+		/>
+					
+		<Button	
+			android:id="@+id/clearall"
+			android:layout_width="wrap_content"
+			android:text="@string/clearall"
+			android:layout_height="fill_parent"
+			android:enabled="true"
+        	android:layout_alignParentRight="true" 
+        	android:layout_centerInParent="true"
+        	android:textColor="#FFF"
+		/>
+	</RelativeLayout>
+</RelativeLayout>

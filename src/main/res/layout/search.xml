@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFF">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/searchbar">
+
+        <include layout="@layout/search_searchbar" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_below="@+id/searchbar"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@android:id/list"
+
+        android:cacheColorHint="#fff"
+        android:background="#fff"
+        android:divider="@drawable/shape_listview_divider"
+        android:dividerHeight="1dp"
+        />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignTop="@android:id/list"
+        android:background="#c3ffffff"
+        android:visibility="invisible"
+        android:id="@+id/searchLoading"
+        android:clickable="true">
+
+        <pl.droidsonroids.gif.GifTextView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageView5"
+            android:background="@drawable/loading"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_below="@+id/searchbar"
+        android:id="@+id/failresults"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="" />
+
+    <com.startapp.android.publish.banner.Banner
+        android:id="@+id/startAppBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
