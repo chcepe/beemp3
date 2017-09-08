@@ -1,5 +1,5 @@
 # BeeMP3
-Music Downloader is built to download mp3 files from Soundcloud Server.
+BeeMP3 is built to download mp3 files from Soundcloud Server.
 
 Current features:
 - Search Songs
